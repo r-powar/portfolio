@@ -1,0 +1,162 @@
+ul{
+  padding: 0;
+  list-style: none;
+}
+
+a{
+  color: inherit;
+}
+
+body {
+  background-color: #222;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  /*animation: App-logo-spin infinite 20s linear;*/
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  border: 3px solid lightgrey;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.App-header {
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-title h3, .App-title .socialItems, .App-title .navigate{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.socialBtns{
+  padding: 10px;
+  margin: 10px;
+  display: inline-block;
+  border: 1px solid;
+  border-radius: 3px;
+  border-color: rgba(229,230,233,0.5) rgba(223,224,228,0.5) #d0d1d5;
+  background-color: #ffffff;
+}
+
+.navBtn{
+  margin: 10px;
+  padding: 10px;
+  background-color: #ffffff;
+  border-color: rgba(229,230,233,0.5) rgba(223,224,228,0.5) #d0d1d5;
+  color: black;
+}
+
+.mainContent {
+  margin-top: 10px;
+  font-family: 'VT323', monospace;
+}
+
+.pageTitle{
+  margin-right: auto;
+  margin-left: auto;
+  width: 50%;
+  padding-left: 30px;
+  margin-bottom: 5px;
+}
+
+.backBtn {
+  padding-left: 80px;
+}
+
+.content{
+  font-family: Fira Sans,sans-serif;
+  text-align: justify;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.blinking-cursor {
+  -webkit-animation: blinker 1s linear infinite;
+  font-size: 24px;
+  font-weight: bold;
+  color: whitesmoke;
+  margin-left: 5px;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.links{
+  margin: 0 5px;
+  display: inline-flex;
+  color: #ffffff;
+  font-size: 16px;
+  padding-left: 30px;
+}
+
+.bio{
+  width: 700px;
+  background-color: #dbd9c0;
+  margin: 0 auto;
+}
+
+.bio p{
+  padding: 5px;
+}
+
+.App-footer{
+  background-color: #efefef;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.contactList li{
+  display: inline;
+  margin-right: 25px;
+  font-size: 25px;
+}
+
+.contactList li a i{
+  color: #7d7d7d;
+}
+
+.copyWrite{
+  font-size: 12px;
+}
+
+.skills{
+  width: 800px;
+  background-color: #dbd9c0;
+  margin: 0 auto;
+}
+
+.skillContent{
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.experience{
+  width: 800px;
+  background-color: #dbd9c0;
+  margin: 0 auto;
+}
+
+.main{
+  width: 36rem;
+  border: 1px solid black;
+  background-color: #dbd9c0;
+  margin-top: 150px;
+}
