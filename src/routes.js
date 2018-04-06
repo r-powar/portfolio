@@ -7,7 +7,6 @@ import {HashRouter, Route} from 'react-router-dom';
 import App from './App';
 import About from './components/About';
 import Skills from './components/Skills';
-import Experience from './components/Experience';
 import Main from './components/Main';
 
 export default (
@@ -17,7 +16,6 @@ export default (
             <Route exact path="/" component={Main}/>
             <Route path="/about" component={About}/>
             <Route path="/skills" component={Skills}/>
-            <Route path="/experience" component={Experience}/>
         </App>
     </HashRouter>
 );

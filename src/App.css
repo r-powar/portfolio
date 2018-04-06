@@ -58,7 +58,6 @@ body {
 
 .mainContent {
   margin-top: 10px;
-  font-family: 'VT323', monospace;
 }
 
 .pageTitle{
@@ -73,6 +72,9 @@ body {
   padding-left: 80px;
 }
 
+.skillPage{
+  padding-left: 75px;
+}
 .content{
   font-family: Fira Sans,sans-serif;
   text-align: justify;
@@ -144,8 +146,7 @@ a {
 }
 
 .skillContent{
-  margin-right: -15px;
-  margin-left: -15px;
+  margin-top: 30px;
 }
 
 .experience{

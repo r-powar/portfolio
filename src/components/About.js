@@ -2,6 +2,8 @@
  * Created by rpowar on 12/20/17.
  */
 import React, {Component} from 'react';
+import {Link} from 'react-router-dom';
+
 
 class About extends Component {
     render() {
@@ -25,9 +27,9 @@ class About extends Component {
                     </p>
                 </div>
                 <div className="row pageTitle backBtn">
-                    <a href="/" className="btn btn-outline-primary navBtn">
+                    <Link to="/" className="btn btn-outline-primary navBtn">
                         <i className="fa fa-chevron-left"></i>
-                    </a>
+                    </Link>
                 </div>
                 {/*<div className="bio">*/}
                     {/*<p>*/}

@@ -36,7 +36,7 @@ class Main extends Component {
                 <div className="navigate">
                     <Link className="btn btn-outline-primary navBtn" to="/about"> About </Link>
                     <Link className="btn btn-outline-primary navBtn" to="/skills"> Skills </Link>
-                    <Link className="btn btn-outline-primary navBtn" to="/resume"> Resume </Link>
+                    <Link className="btn btn-outline-primary navBtn" to={process.env.PUBLIC_URL + '/Resume_RajP.pdf'} download> Resume </Link>
                 </div>
             </div>
         </div>)
